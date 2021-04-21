@@ -1,0 +1,1 @@
+121.241.242.114:8080/bulksms/bulksms?username=elit-materdei&password=materdei&type=0&dlr=1&destination=243998945037&source=Naledi&message=hello my joyce this is miracle i love you babe pls dont hate me

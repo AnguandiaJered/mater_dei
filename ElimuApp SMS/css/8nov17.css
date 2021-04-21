@@ -1,0 +1,51 @@
+/* MISE A JOUR DU 8 NOVEMBRE 2017
+
+Guillaoin  BISIMWA
+naledi services
+*/
+._8nov17_body{
+    padding: 10px;
+}
+._8nov17_tr{
+    width: 100% !important;
+    text-transform: uppercase; 
+}
+._8nov17_left{
+    width: 30% !important;
+}
+._8nov17_leftbuton{
+    width: 10% !important;
+}
+._8nov17_titre{
+    text-transform: uppercase;
+    text-align: center;
+}
+._8nov17_titre1{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+._8nov17_ins_tr{
+    width: 100% !important;
+    text-transform: uppercase; 
+}
+._8nov17_ins_left{
+    width: 25% !important;
+}
+._8nov17_ins_leftbuton{
+    width: 25% !important;
+}
+._8nov17_titre, ._8NOV17_TITRE{
+    font-size: large !important;
+    text-align: center !important;
+    display: block !important;
+    text-decoration: underline !important;
+}
+
+._8nov17_rap_left,
+._8nov17_rap_leftbuton {
+    width: 20% !important;
+}
+._8nov17_rap_left2 {
+     width: 40% !important;
+}

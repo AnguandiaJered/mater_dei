@@ -1,0 +1,27 @@
+<body onLoad="text_animation('effectId','fade');">
+<h2 id="effectId" style="color:#FFF;">ELIMU 1.0 Software</h2>
+
+<script src="ajax.js"></script>
+<script src="textEffect.jquery.js"></script>
+<script>
+function text_animation(id,animation_type)
+{
+jQuery(document).ready(function($) {
+//document.getElementById('effectId').textEffect();
+//$('h1').textEffect();
+$("#"+id).textEffect(animation_type);
+//$('#demo1').textEffect('fade');
+//$('#demo2').textEffect('grow');
+$('#demo3').textEffect({
+effect: 'jumble',
+effectSpeed: 150,
+completionSpeed: 6000,
+jumbleColor: '#7f7f7f'
+});
+$('#demo4').textEffect('slide');
+$('#demo5').textEffect('dropdown');
+});
+}
+</script>
+</body>
+
