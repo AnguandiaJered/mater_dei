@@ -1,0 +1,212 @@
+
+@font-face {
+    font-family: "OswaldLight";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../font/Oswald-Light-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/Oswald-Light-webfont.woff") format("woff"), url("../../font/Oswald-Light-webfont.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OswaldBook";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../font/Oswald-Regular-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/Oswald-Regular-webfont.woff") format("woff"), url("../../font/Oswald-Regular-webfont.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OswaldBold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../font/Oswald-Bold-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/Oswald-Bold-webfont.woff") format("woff"), url("../../font/Oswald-Bold-webfont.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OswaldStencilRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../font/Oswald-Stencil-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../../font/Oswald-Stencil-webfont.woff") format("woff"), url("../../font/Oswald-Stencil-webfont.ttf") format("truetype");
+}
+
+* {margin:0; padding:0; outline:0}
+body {font:12px Verdana,Arial; margin:25px; background-color:#f2e6e6; overflow-x:hidden}
+#tablewrapper {width:100%; margin:0 auto}
+#tableheader {height:55px;width:100%;}
+#tableheader option{padding-left:4px;font-size:13px; background-color:#f6eced;}
+.search {float:left; padding:6px; border:1px solid #e1c6c8; background:#fff}
+#tableheader select {float:left; font-size:13px; width:125px; padding:2px 4px 4px; background-color:#fef7f8;}
+#tableheader input {float:left; font-size:13px; width:225px; padding:2px 4px 4px; margin-left:4px; background-color:#fef7f8;}
+.details {float:right; padding-top:12px}
+.details div{float:left; font-family:OswaldLight, sans-serif; margin-left:15px; font-size:17px}
+.tinytable {width:100%; border-left:1px solid #e1c6c7; border-top:1px solid #e1c6c8; border-bottom:none}
+.tinytable th {background-color:#d80519; text-align:left; font-family:OswaldLight, sans-serif;color:#fff; border:1px solid #fff; border-right:none}
+.tinytable th h3 {font-size:15px;text-shadow: 0px 1px 3px rgba(150, 150, 150, 1); padding:8px 8px 8px}
+.tinytable td {padding:4px 6px 6px; border-bottom:1px solid #e1c6c9; border-right:1px solid #e1c6c9}
+.tinytable .head h3 {background:url(../../images/sort.png) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .desc, .sortable .asc {background-color:#b5020a;}
+.tinytable .desc h3 {background:url(../../images/desc.png) 7px center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .asc h3 {background:url(../../images/asc.png) 7px  center no-repeat; cursor:pointer; padding-left:18px}
+.tinytable .head:hover, .tinytable .desc:hover, .tinytable .asc:hover {color:#fff}
+.tinytable .evenrow td {background:#fff}
+.tinytable .oddrow td {background:#f6eced}
+.tinytable td.evenselected {background:#f6eced}
+.tinytable td.oddselected {background:#eedcdc}
+.tinytable tfoot {background:#fff; font-weight:bold}
+.tinytable tfoot td {padding:6px 8px 8px}
+#tablefooter {height:15px; margin-top:20px;width:100%;}
+#tablenav {float:left}
+#tablenav img {cursor:pointer}
+#tablenav div {float:left; margin-right:15px}
+#tablelocation {float:right;font-family:OswaldLight, sans-serif; font-size:18px;background: none repeat scroll 0 0 #FFFFFF;border: 1px solid #C6D5E1;padding: 6px;}
+#tablelocation select {margin-right:3px; background-color:#f7fbfe;width:70px;}
+#tablelocation option{background-color:#f6ecec;}
+#pagedropdown{width:70px; height:24px;background-color:#fef7f8;}
+
+#pagedropdown option{background-color:#f6eced;}
+#tablelocation div {float:left; margin-left:15px}
+.page {margin-top:2px; font-style:normal;}
+#selectedrow td {background:#e1c6c8}
+.txt-page{font-family:OswaldLight, sans-serif; font-size:17px;}
+
+/***Heading pannel contact***/
+.heading-color{	background:#d80519;border-bottom:1px solid #f55467;}
+
+/*****************Button Style******************/
+
+.btn-reset {}.txt-txt{font-family:OswaldLight, sans-serif; font-size:17px;}
+
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .2em 1em .35em;
+	text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+	-webkit-border-radius: .1em; 
+	-moz-border-radius: .1em;
+	border-radius: .1em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+/* blue */
+.blue {
+	color: #fff;
+	border: solid 1px #b50213;
+	background-color: #d80519;
+	
+}
+.blue:hover {
+	background: #ad0008;
+
+}
+.blue:active {
+	color: #80bed6;
+	background: #ee0006;
+
+}
+   /* 
+	Max width before this PARTICULAR table gets nasty
+	This query will take effect for any screen smaller than 760px
+	and also iPads specifically.
+	*/
+	@media 
+	only screen and (max-width: 760px),
+	(min-device-width: 768px) and (max-device-width: 1024px)  {
+	.tinytable{margin-top:50px;}
+		/* Force table to not be like tables anymore */
+		table, thead, tbody, th, td, tr { 
+			display: block; 
+		}
+		
+		/* Hide table headers (but not display: none;, for accessibility) */
+		thead tr { 
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+		
+		tr { border: 1px solid #ccc; }
+		
+		.tinytable td { 
+			/* Behave  like a "row" */
+			border: none;
+			border-bottom: 1px solid #eee; 
+			position: relative;
+			padding-left: 50%; 
+		}
+		
+		td:before { 
+			/* Now like a table header */
+			position: absolute;
+			/* Top/left values mimic padding */
+			top: 6px;
+			left: 6px;
+			width: 45%; 
+			padding-right: 10px; 
+			white-space: nowrap;
+		}
+		
+		/*
+		Label the data
+		*/
+		td:nth-of-type(1):before { content: "ID"; }
+		td:nth-of-type(2):before { content: "Name"; }
+		td:nth-of-type(3):before { content: "Phone"; }
+		td:nth-of-type(4):before { content: "Email"; }
+		td:nth-of-type(5):before { content: "Birthdate"; }
+		td:nth-of-type(6):before { content: "Last Access"; }
+		td:nth-of-type(7):before { content: "Rating"; }
+		td:nth-of-type(8):before { content: "Done"; }
+		td:nth-of-type(9):before { content: "Salary"; }
+		td:nth-of-type(10):before { content: "Score"; }
+	}
+	
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 480px) {
+		body { padding: 0; margin: 0; width: 320px; }
+		#tableheader input{margin-top:10px;}	
+			
+		}
+	
+	/* iPads (portrait and landscape) ----------- */
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+		body { 
+			width: 495px; 
+		}
+		
+	}
+	
+	
+/*Preview*/
+.preview-top{width:100%; height:30px;}
+.sub-preview{width:900px;height:30px;margin:0 auto;}
+.button-top{float:left; margin:0 auto;}
+
+.red {
+	
+	background: #e1071c;
+	width:20px; height:16px;
+}
+.green {
+	
+	background: #19d905;
+	width:20px; height:16px;
+}
+.blueTop {
+	
+	background: #0095cd;
+	width:20px; height:16px;
+}
